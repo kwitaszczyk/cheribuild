@@ -188,7 +188,6 @@ class BuildQEMUBase(AutotoolsProject):
             "--target-list=" + self.qemu_targets,
             "--enable-slirp=git",
             "--disable-linux-user",
-            "--disable-bsd-user",
             "--disable-xen",
             "--disable-docs",
             "--disable-rdma",
